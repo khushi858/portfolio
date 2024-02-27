@@ -1,0 +1,174 @@
+.body{
+    background-color: rgb(2, 44, 50);
+    color:rgb(2, 38, 43);;
+    font-family: var(--font-base),sans-serif;
+}
+
+.h1{
+    color: black;
+    font-weight: 700;
+    font-weight:bold ;
+    
+}
+.h4{
+    color: rgb(18, 18, 19);
+    font-weight: 500;
+    display: 4;
+    font-weight:bold ;
+    padding-top: 20px;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: rgb(232, 138, 138);
+}
+p{
+    color: black;
+}
+.img{
+    width: 100%;
+    height:50%;
+    
+}
+.imag{
+    height:300px;
+    width: 200px;
+}
+.text-brand{
+    color:burlywood;
+}
+.bg-base{
+    border-color: rgb(187, 202, 203);
+}
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Navbar */
+
+.navbar .nav-link:hover{
+    color: rgb(228, 228, 120);
+}
+
+@media (min-width: 992px){
+    .navbar{
+        min-height: 100vh;
+        width:auto;
+        background: linear-gradient(rgba(22, 40, 40, 0.7),rgba(47, 72, 75, 0.7)) , url(../portfolio/bootstrap/images/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg);
+        background-size: cover;
+        background-position: left;
+        position: fixed;
+        display: flex;
+        height: auto;
+       
+    }
+    
+    }
+.nav-link{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: bold;
+}
+/*content wrapper*/
+
+#content-wrapper{
+    padding-left: 350px;
+}
+
+
+.btn{
+    padding:12px 38px;
+    font-weight: 700;
+}
+
+.btn-brand{
+    background-color: #f5b5b5;
+    border-color: #f5b5b5;
+}
+
+.link-custom{
+    font-weight: 700;
+    position: relative;
+}
+.link-custom:hover{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f5b5b5;
+    position: absolute;
+    left:0;
+    top:110%;
+}
+.link{
+    font-weight: 700;
+    position: relative;
+}
+.link:hover{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f5b5b5;
+    position: absolute;
+    left:0;
+    top:110%;
+}
+
+.container{
+    margin-inline: 20px;
+    height: 100%;
+}
+.coll{
+    background-color:#0e4e65;
+    border-radius: 2%;
+    margin-right: 20px;
+}
+.h3{
+    color: rgb(223, 228, 233);
+    font-weight: 500;
+    font-weight:bold ;
+    margin-right: 370px;
+    margin-bottom: 20px;
+   
+}
+.h5{
+    font-size: 20px;
+    font-weight:bold ;
+    color: aquamarine;
+}
+.h6{
+    color: rgb(223, 228, 233);
+    font-weight: 500;
+    font-weight:bold ;
+    font-size: 25px;
+}
+.image{
+    height:300px;
+    width: 300px;
+}
+.contact{
+    background-position: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    max-width: 800px;
+    height:800px;
+}
+.h2{
+    margin-left: 200px;
+    color: rgb(234, 238, 191);
+    font-weight: 500;
+    font-weight:bold ;
+    font-size: 70px;
+}
+.form-label{
+    color: black;
+    font-weight: 500;
+    font-weight:bold ;
+}
